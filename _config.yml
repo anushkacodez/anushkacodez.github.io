@@ -18,13 +18,17 @@ show_minimal: false             # remove all clutter
 # Menu                          # for available icons see https://fontawesome.com/v5/icons/
 
 navigation:                     # accepts {file, title, url, icon, sidebaricon}
-  - {file: "archive.html", title: "Home", sidebaricon: home}
+  # - {file: "archive.html", title: "Home", sidebaricon: home}
+  - {file: "anushka.pdf", title: "CV", sidebaricon: home}
   - {file: "README.md", title: "About me", sidebaricon: address-card}
+
 
 external:                       # accepts {file, title, url, icon, sidebaricon}
   - {title: Mail, icon: envelope, url: "mailto:g.anushka@iitg.ac.in"}
   - {title: Github, icon: github, url: "https://github.com/anushkacodez"}
-  - {title: LinkedIn, icon: linkedin-in, url: "https://www.linkedin.com/in/anushkagupta2007/"}
+  - {title: LinkedIn, icon: "fab fa-linkedin", url: "https://www.linkedin.com/in/anushkagupta2007/"}
+  - {title: Instagram, icon: "fab fa-instagram", url: "https://www.instagram.com/iamanushkag/"}
+
 
 comments:
 #  disqus_shortname: ""         # see https://disqus.com
