@@ -18,6 +18,7 @@
 {%- endif -%}
 {%- if page.mathjax or site.mathjax -%}
 <link rel="stylesheet" href="{{ "/assets/katex/katex.min.css" | relative_url }}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 {% unless site.plugins contains "jektex" %}
 <script defer src="{{ "/assets/katex/katex.min.js" | relative_url }}"></script>
 <script defer src="{{ "/assets/katex/contrib/auto-render.min.js" | relative_url }}" onload="renderMathInElement(document.body)"></script>
