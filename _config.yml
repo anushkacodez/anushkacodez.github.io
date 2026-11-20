@@ -1,6 +1,6 @@
 title: "Anushka Gupta"
 author: "Anushka Gupta"
-description: "Indian Institute of Technology Guwahati"
+description: "MS Computer Science at UIUC. NLP and large language models."
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
@@ -17,12 +17,7 @@ show_minimal: false             # remove all clutter
 
 # Menu                          # for available icons see https://fontawesome.com/v5/icons/
 
-navigation:                     # accepts {file, title, url, icon, sidebaricon}
-  - {url: "/", title: "Home", sidebaricon: home}
-  - {url: "/assets/anushka.pdf", title: "CV", sidebaricon: home}
-  - {file: "publications.md", title: "Publications", sidebaricon: file-alt}
-  - {file: "experience.md", title: "Experience", sidebaricon: briefcase}
-  - {file: "achievements.md", title: "Achievements", sidebaricon: trophy}
+navigation: []
 
 external:                       # accepts {file, title, url, icon, sidebaricon}
   - {title: Mail, icon: envelope, url: "mailto:g.anushka@iitg.ac.in"}
